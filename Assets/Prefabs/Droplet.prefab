@@ -136,7 +136,7 @@ MonoBehaviour:
     m_Template: {fileID: 0}
     m_CollisionResponse:
       m_Override: 0
-      m_Value: 0
+      m_Value: 1
     m_Friction:
       m_Override: 0
       m_Value:
@@ -306,4 +306,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33113cb1a82b4065af7f272ad9630a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Timeleft: 2
+  TimeLeft: 2

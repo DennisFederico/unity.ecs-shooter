@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2848879103796674890}
   - component: {fileID: 6753365122469411764}
   - component: {fileID: 5538844339751219490}
+  - component: {fileID: -4674411433592532804}
+  - component: {fileID: 2671228583451170915}
   m_Layer: 0
   m_Name: Virus
   m_TagString: Untagged
@@ -292,4 +294,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 007f3ec9278054b8ba7e2ac341c90beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
+  LinearSpeed: 2
+  AngularSpeed: 0.25
+--- !u!114 &-4674411433592532804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031672773712685720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5cf7ce5580c47909cca6467a94df60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsAlive: 1
+--- !u!114 &2671228583451170915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031672773712685720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a68b8468f8a41a8987235e69b44bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EntityRef: {fileID: 0}
+  Seed: 0

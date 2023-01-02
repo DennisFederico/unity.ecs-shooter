@@ -154,10 +154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 963194225}
   virusPrefab: {fileID: 1031672773712685720, guid: 1fe326cc32ce24146a292e27898943fe, type: 3}
-  numVirus: 500
+  numVirus: 1000
   bloodCellPrefab: {fileID: 8156138989489879488, guid: 11a1a8b7277b74c7ea8a2e3143f9bbf0, type: 3}
-  numBloodCells: 500
+  numBloodCells: 1000
   bulletPrefab: {fileID: 7500175779173973728, guid: aa9c17426c7854e13823b9bf23817b8e, type: 3}
+  whiteBloodCellPrefab: {fileID: 3996319879401637163, guid: 9b756326ccc304320bcf423db316d3b0, type: 3}
   numBullets: 10
 --- !u!4 &236584870
 Transform:
